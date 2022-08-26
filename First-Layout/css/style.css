@@ -57,6 +57,7 @@ body {
 .navigation {
     display: flex;
 	align-items: stretch;
+    justify-content: space-between;
     padding: 0;
 	margin: 0;	
     flex-wrap: wrap;
@@ -70,6 +71,7 @@ body {
     letter-spacing: 0.49px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-decoration: none;
     color: #E0E0E0;
     padding: 35px;
@@ -611,26 +613,59 @@ h2 {
 
 @media screen and (max-width: 412px) {
 
-
-
     .heading__1 {
-        font-size: 40px;
+        font-size: 31px;
     }
 
     .img-fixed {
-        width: 380px;
-        height: 380px;
+        max-width: 350px;
+        max-height: 200px;
+        padding-right: 19px;
+        margin-right: 1px;
+
+    }
+
+    .contentx_oraganisation {
+        justify-content: flex-end;
     }
 
     .click_contactus {
         width: 270px;
     }
 
+    .row_1 {
+        justify-content: flex-end;
+    }
+
+    .row_2 {
+        justify-content: flex-end;
+    }
+
+    .Head_h2 {
+        font-size: 13px;
+        padding-left: 0px;
+        padding-right: 115px;
+
+    }
+
+    .headdo_p {
+        font-size: 13px;
+        text-align: center;
+        padding-right: 113px;
+    }
+    
+
+    .click_learn {
+        width: 270px;
+    }
+
+    .content-provide {
+        padding-left: 17px;
+    }
+
     .content-provide-text {
         margin-bottom: 26px;
     }
-
-    
 
     .elements_horiz {
         display: grid;
@@ -656,14 +691,18 @@ h2 {
     .copy {
         margin-right: 250px;
     }
+
+    .EMAIL {
+        margin-left: 30px;
+    }
 }
+
 
 @media screen and (max-width: 540px) {
     .heading__1 {
         font-size: 50px;
     }
 
-   
     .p_headd {
         font-size: 12px;
     }
@@ -696,12 +735,9 @@ h2 {
     }
 }
 
+
 @media screen and (max-width: 912px) {
    
-    body {
-        width: 913px;
-    }
-
     .form_2 {
         display: contents;
     }
@@ -728,17 +764,8 @@ h2 {
     }
  }
 
+
  @media screen and (max-width: 768px) { 
-
-    body {
-        width: 650px;
-    }
-
-   
-    .EMAIL {
-        margin-left: 113px;
-    }
-    
 
     .form_2 {
         display: contents;
@@ -758,7 +785,6 @@ h2 {
         height: 150px;
     }
 }
-
 
 @media screen and (max-width: 820px) { 
 
@@ -807,15 +833,6 @@ h2 {
         height: 250px;
     }
 
-    .Head_h2 {
-        text-align: left;
-        font-size: 38px;
-    }
-
-    .headdo_p {
-        text-align: left;
-    }
-
     .footer__copyright {
         margin-left: 125px;
     }
@@ -834,10 +851,7 @@ h2 {
 }
 
 @media screen and (max-width: 820px) {
-   
-    body {
-        width: 840px;
-    }
+
     .heading__1 {
         font-size: 40px;
     }
@@ -875,6 +889,7 @@ h2 {
 
     }
  }
+
 
  @media screen and (min-width: 1920px) {
    
