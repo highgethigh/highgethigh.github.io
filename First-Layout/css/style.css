@@ -886,7 +886,97 @@ h2 {
 
     .headdo_p {
         text-align: left;
+    }
+ }
 
+ @media screen and (max-width: 414px) {
+    .adress_h5 {
+        padding-left: 98px;
+    }
+    .p__adr {
+        padding-left: 98px;
+    }
+    
+    .footer__copyright {
+        margin-left: 0px;
+    }
+
+    .button- {
+        left: 108px;
+        top: 22.5;
+        bottom: 5px;
+        padding-top: 0px;
+    }
+
+    .row_1 {
+        justify-content: flex-end;
+    }
+
+    .row_2 {
+        justify-content: flex-end;
+    }
+
+    .footer__social-links {
+        display: contents;
+    }
+
+    .NAME {
+        margin-left: 72px;
+    }
+
+    .Head_h2 {
+        font-size: 13px;
+        padding-left: 0px;
+        padding-right: 115px;
+
+    }
+
+    .headdo_p {
+        font-size: 13px;
+        text-align: center;
+        padding-right: 113px;
+    }
+ }
+
+
+ @media screen and (max-width: 375px) {
+    .adress_h5 {
+        padding-left: 0px;
+    }
+
+    .p__adr {
+        padding-left: 0px;
+    }
+
+    .Head_h2 {
+        font-size: 11px;
+        padding-left: 0px;
+        padding-right: 115px;
+
+    }
+
+    .headdo_p {
+        font-size: 9px;
+        padding-left: 0px;
+        padding-right: 115px;
+
+    }
+
+    .heading__1 {
+        font-size: 35px;
+    }
+
+    .img-fixed {
+        padding-left: 34px;
+        padding-right: 0px;
+    }
+
+    .row_1 {
+        justify-content: flex-start;
+    }
+
+    .row_2 {
+        justify-content: flex-start;
     }
  }
 
